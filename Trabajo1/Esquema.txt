@@ -1,0 +1,28 @@
+Gestión de la capacidad:
+“Una empresa dedicada a la distribució hotelera decideix augmentar la seva capacitat de la seva granja de servidors web degut a la gran demanda que tindrà durant la pròxima temporada alta d’Agost.”
+Gestión de incidencias:
+“El CAU (Centre Atenció al Usuari) esta començant registrar incidències referents al mal funcionament de la web”
+Gestión de problemas:
+“mentrestant els equips de sistemes i desenvolupament treballen en paral·lel per determinar si es un problema de infraestructura o d’aplicació.”
+“Els equips de sistemes han fet un primer diagnòstic determinant que pareix un problema de connectivitat entre servidors de disponibilitat i els servidors de bases de dades provocant que els servidors es quedin penjats de manera aleatòria”
+“s’estan intentant mitigar el problema redirigint clients d’altres països a servidors al cloud”
+Gestión de la disponibilidad y continuidad del negocio:
+“es comença a detectar un problema en el sistema de disponibilitat, les alarmes que monitoritzen aquest sistema salten de manera intermitent, fent que l’equip de operacions actuï sobre aquest servei”
+Gestión del nivel de servicio:
+“les alarmes que monitoritzen aquest sistema salten de manera intermitent, fent que l’equip de operacions actuï sobre aquest servei.” -> La monitorización de los servicios facilita la identificación de debilidades y la mejora de la calidad.
+Gestión de cambios:
+“Apart de tot això tenim que el mateix dia que se varen activar els servidors nous també es va pujar una versió nova de software del servei de disponibilitat i s’ha cridat als equips de desenvolupament per veure si podria esser seria la versió del software que provoca aquest problema.”
+Gestión de relaciones con el negocio:
+“Al haver passat 2 hores de la incidència es comencen a notificar als clients demanant disculpes per el mal funcionament de la web i desactivant la web definitivament posant un missatge de manteniment”
+Gestión de la configuración:
+“finalment el departament de sistemes arriba a trobar una solució al problema: Segons un article trobat a la web de slashdot de un Bug al Kernel de Linux: https://www.slashroot.in/leapsecond-bug-linux-kernel que només passa entre el segon entre dia 30 de juny i dia 1 de juliol, afecta a aplicacions Java, es recomana reiniciar les aplicacions i els servidors de manera escalonada. A partir d’aquell moment es comencen a controlar els servidors reiniciats per saber que funcionen correctament.”
+Gestión de la contabilidad:
+“En aquell punt ja s’estan tenint unes pèrdues del ordre dels 100000 euros i els directius de l’empresa ja estan nerviosos per que no es pot vendre res per la seva web ni per cap dels canals B2B” -> la empresa mide el coste de sus servicios y el dinero que les generan estos, por lo tanto son conscientes del dinero que ganan o pierden dependiendo de la situación y pueden tomar medidas en función de esto.
+Gestiones que faltan:
+•	Gestión de la entrega y despliegue: deberían haber desplegado primero los servidores en un entorno test/certificación antes de usarlos en producción, para comprobar el funcionamiento y haber detectado (potencialmente) este bug antes de que afectara a los clientes.
+
+•	Informes del servicio: en ningún momento se menciona que el equipo de TI elabore un informe del servicio que permitiría añadir conocimiento al historial de la empresa y utilizarlo en su propio beneficio en el futuro.
+
+•	Gestión de la seguridad de la información: en ningún momento se mencionan medidas de seguridad aplicadas en los servidores ya en uso, ni tampoco medidas de seguridad que se implementen en los nuevos servidores desplegados.
+
+•	Gestión de suministradores: “(però el procés de migració al cloud encara no s’ha completat) per tant es dona un servei molt precari” -> deberían haber gestionado mejor el servicio cloud que están pagando al proveedor que sea. No han tenido disponible al completo el servicio cloud cuando lo necesitaban. Se deben gestionar los suministradores y proveedores para garantizar la provisión de los servicios, de calidad y sin interrupciones.
